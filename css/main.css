@@ -19,9 +19,13 @@
 }
 
 .Logo{
-    width: 500px;
-    max-width: 1000px;
+     width: 100%;
+    max-width: 900px;
+    min-width: 300px;
+
     height: auto;
+
+
     top: 25%;
     position: relative;
 }
