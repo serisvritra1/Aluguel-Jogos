@@ -54,7 +54,11 @@
         gap: 15px;
     }
     .barra {
-        display: none;
+        width:  90%;
+        max-width: 120px;
+        height: auto;
+        flex-shrink: 0;
+        opacity: 0.5;
     }
 
     .divisor__line {
@@ -207,7 +211,7 @@
 .barra {
     width:  90%;
     max-width: 250px;
-    height: autopx;
+    height: auto;
     flex-shrink: 0;
     opacity: 0.5;
 }
