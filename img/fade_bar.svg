@@ -1,0 +1,12 @@
+<svg width="1920" height="180" viewBox="0 0 1920 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <defs>
+        <linearGradient id="redGradient" x1="0" y1="0" x2="1920" y2="0" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#ff2a2a"></stop>
+            <stop offset="1" stop-color="#d10000"></stop>
+        </linearGradient>
+    </defs>
+
+    <polygon points="0,180 110,0 1920,0 1810,180" fill="url(#redGradient)"></polygon>
+
+</svg>
