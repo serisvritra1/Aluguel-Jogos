@@ -69,10 +69,7 @@
     }
 }
 
-    .hachuras {
-        width: 120px;
-        align-self: flex-end;
-    }
+    
 }
 .main {
     display: flex;
@@ -205,11 +202,6 @@
     background-color: #01080E;
 }
 
-.hachuras {
-    margin-top: 1.5rem;
-    margin-right: 33px;
-    align-self: flex-end;
-}
 
 .barra {
     width:  90%;
