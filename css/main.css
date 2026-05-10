@@ -50,6 +50,10 @@
         gap: 40px;
     }
 
+    .divisor {
+        gap: 15px;
+    }
+
     .hachuras {
         width: 120px;
     }
@@ -69,6 +73,7 @@
 }
 
 .divisor__line {
+    flex: 1;
     height: 1px;
     width: 100%;
     max-width: 282px;
