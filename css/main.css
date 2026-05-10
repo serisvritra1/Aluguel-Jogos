@@ -66,7 +66,7 @@
 
 .divisor {
     display: flex;
-    gap: 53px;
+    gap: 20px;
     align-items: center;
 
     margin: 88px 0px 40px;
@@ -200,6 +200,7 @@
     width:  90%;
     max-width: 250px;
     height: autopx;
+    flex-shrink: 0;
     opacity: 0.5;
 }
 
