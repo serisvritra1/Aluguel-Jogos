@@ -80,7 +80,8 @@
 
 .divisor__line {
     height: 1px;
-    width: 282px;
+    width: 90px;
+    max-width: 282px;
     background-color: #000000;
     
 }
