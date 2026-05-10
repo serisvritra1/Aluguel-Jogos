@@ -71,7 +71,7 @@
 
     .hachuras {
         width: 120px;
-        left: 100%;
+        align-self: flex-end;
     }
 }
 .main {
@@ -209,7 +209,6 @@
     margin-top: 1.5rem;
     margin-right: 33px;
     align-self: flex-end;
-    left: 100%;
 }
 
 .barra {
