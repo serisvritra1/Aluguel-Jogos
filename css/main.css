@@ -53,6 +53,15 @@
     .divisor {
         gap: 15px;
     }
+    .barra {
+        display: none;
+    }
+
+    .divisor__line {
+        flex: 1;
+        height: 2px;
+    }
+}
 
     .hachuras {
         width: 120px;
