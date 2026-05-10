@@ -19,7 +19,8 @@
 }
 
 .Logo{
-    width: 1000px;
+    width: 100px;
+    max-width: 1000px;
     height: auto;
     top: 25%;
     position: relative;
@@ -30,11 +31,41 @@
         padding: 2rem calc((100vw - 1086px)/2);
     }
 }
+
 @media (max-width: 768px) {
+    
     .dashboard {
         padding: 1.5rem;
         width: 95%;
         border-radius: 1.5rem;
+    }
+
+    .dashboard__items {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .page-title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .divisor {
+        gap: 15px;
+    }
+
+    .divisor__line {
+        width: 80px;
+    }
+
+    .Info {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .hachuras {
+        width: 120px;
     }
 }
 .main {
@@ -89,10 +120,15 @@
 
 .dashboard__items {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .dashboard__items__item {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -166,7 +202,8 @@
     padding: 0.9px;
     border-radius: 5px;
     color: #FFFFFF;
-    width: 1000px;
+    width: 100px;
+    max-width: 1000px;
     font-size: 18px;
 
 }
