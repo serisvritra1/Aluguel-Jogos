@@ -239,13 +239,15 @@
 
 .divisor__liny {
     height: 3px;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     background-color: #ffffffa1;
 }
 
 .divisor__lini {
     margin: 12px;
     height: 0.3px;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     background-color: #ffffff86;
 }
