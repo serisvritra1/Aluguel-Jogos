@@ -202,7 +202,8 @@
 }
 
 .barra {
-    width:  250px;
+    width:  100x;
+    max-width: 250px;
     height: autopx;
     opacity: 0.5;
 }
