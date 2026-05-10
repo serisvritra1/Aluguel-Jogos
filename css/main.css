@@ -59,10 +59,7 @@
         width: 80px;
     }
 
-    .Info {
-        width: 100%;
-        font-size: 16px;
-    }
+
 
     .hachuras {
         width: 120px;
@@ -143,6 +140,14 @@
     margin-bottom: 1rem;
 }
 
+.dashboard__item__img img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+
+    display: block;
+}
+
 .dashboard__item__img--rented {
     position: relative;
 }
@@ -199,12 +204,19 @@
 
 .Info {
     background: rgba(255, 255, 255, 0);
-    padding: 0.9px;
-    border-radius: 5px;
-    color: #FFFFFF;
-    width: 100px;
+
+    width: 90%;
     max-width: 1000px;
-    font-size: 18px;
+
+    padding: clamp(16px, 3vw, 32px);
+
+    border-radius: 5px;
+
+    color: #FFFFFF;
+
+    font-size: clamp(16px, 1.2vw, 18px);
+
+    margin: auto;
 
 }
 
